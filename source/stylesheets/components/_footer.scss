@@ -1,0 +1,26 @@
+// From folder where I was: mv _footer.scss ../layout (terminal)
+// Even if the footer is a component, it's a good practice to put all
+// "layout components" in a separated directory (just to organize the code).
+
+#footer {
+  background: #333333;
+  padding: 30px 0;
+  color: #CCCCCC;
+}
+#footer p {
+  margin-top: 17px;
+}
+#footer ul {
+  margin-top: 10px;
+}
+#footer a {
+  color: #CCCCCC;
+  font-size: 30px;
+  letter-spacing: 20px;
+  transition: color 0.5s ease;
+}
+#footer a:hover{
+  color: yellow;
+}
+
+

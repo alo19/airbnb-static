@@ -38,3 +38,9 @@ $gray-dark:    lighten(#000, 20%);   // #333
 $gray:         lighten(#000, 33.5%); // #555
 $gray-light:   lighten(#000, 46.7%); // #777
 $gray-lighter: lighten(#000, 93.5%); // #eee
+
+// Could add more bootsrap components to override here e.g. dropdown,
+// your forms etc. look at http://getbootstrap.com/customize/#less-variables
+// and just override.
+// If you want to modify your css you can do that in your file, but for bootstrap
+// it is this way.

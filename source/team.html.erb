@@ -1,0 +1,29 @@
+<ul class="list-inline text-center">
+  <% ["antoine", "alex", "andrew"].each do |member| %>
+    <li>
+      <%= image_tag "#{member}.jpg", class: "avatar" %>
+      <h3><%= member.capitalize %></h3>
+    </li>
+  <% end %>
+</ul>
+
+<!-- "img-circle" = BOOTSTRAP (images were HUGE so changed to avatar) -->
+
+<!-- BUT have to go to http://localhost:4567/team.html -->
+
+<!-- This ERB code will generate this HTML code: -->
+<!-- HTML output -->
+<!-- ul class="list-inline text-center">
+  <li>
+    <img src="images/boris.png" alt="">
+    <h3>Boris</h3>
+  </li>
+  <li>
+    <img src="images/seb.png" alt="">
+    <h3>Seb</h3>
+  </li>
+  <li>
+    <img src="images/romain.png" alt="">
+    <h3>Romain</h3>
+  </li>
+</ul> -->
